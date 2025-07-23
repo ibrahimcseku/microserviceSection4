@@ -14,7 +14,7 @@ Here, docker build . -t {dockerHubId}/{imageName}:{version}
 # Step 5: Create and run docker container
 	docker run -d -p 8080:8080 ibrahimcseku/accounts:s4
 	
-# Step 6: Use below command to see all container
+# Step 6: Use below command to see all container present status
 	docker ps -a
 	
 # Step 7: Can Start and Stop container using container ID
