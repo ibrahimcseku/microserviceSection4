@@ -1,4 +1,4 @@
-# Step 1: Create a file "DockerFile" under prokect root folder
+# Step 1: Create a file "DockerFile" under project root folder
 
 # Step 2: Open terminal on the project directory and build Accounts maven project
 	mvn clean
