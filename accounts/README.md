@@ -30,5 +30,5 @@ Here, docker build . -t {dockerHubId}/{imageName}:{version}
 	
 # To run all the container by a single command create docker-compose.yml file and use following command to up/down docker container.
 	docker compose up -d
-	docker compose down -d
+	docker compose down
 	
