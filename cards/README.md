@@ -21,4 +21,9 @@
 
 # 4: Execute docker command to run the docker container based on the provided image name and port - 
 	docker run -d -p 9000:9000 ibrahimcseku/cards:s4 
+
+# To push an docker image or a repository to a remote registry (for my case I am pushing to docker hub remote repository)
+	docker image push docker.io/ibrahimcseku/cards:s4	
 	
+# To pull an image or a repository from a registry		
+	docker image pull docker.io/ibrahimcseku/cards:s4		

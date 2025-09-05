@@ -21,3 +21,14 @@ Here, docker build . -t {dockerHubId}/{imageName}:{version}
 	docker ps -a
 	docker start {ContainderId}
 	docker stop {ContainerId}	
+	
+# To push an docker image or a repository to a remote registry (for my case I am pushing to docker hub remote repository)
+	docker image push docker.io/ibrahimcseku/accounts:s4
+	
+# To pull an image or a repository from a registry		
+	docker image pull docker.io/ibrahimcseku/accounts:s4	
+	
+# To run all the container by a single command create docker-compose.yml file and use following command to up/down docker container.
+	docker compose up -d
+	docker compose down -d
+	
