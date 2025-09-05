@@ -32,3 +32,6 @@ Here, docker build . -t {dockerHubId}/{imageName}:{version}
 	docker compose up -d
 	docker compose down
 	
+# To start/stop existing docker compose container use following command:
+	docker compose start
+	docker compose stop 	
